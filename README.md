@@ -1,6 +1,6 @@
 ## INSCRIBE: A scalable approach to in situ readout the single cell signaling history at the endpoint
 
-This repository provides analysis resources for the manuscript under review, titled **"Genetic recording and in situ readout of single cell signaling histories"**, a modified version of the preprint **"Reconstructing signaling history of single cells with imaging-based molecular recording"**, available [here] https://www.biorxiv.org/content/10.1101/2024.10.11.617908v1
+This repository provides analysis resources and demostrtion pipelines for the manuscript under review, titled **"Genetic recording and in situ readout of single cell signaling histories"**, a modified version of the preprint **"Reconstructing signaling history of single cells with imaging-based molecular recording"**, available [here] https://www.biorxiv.org/content/10.1101/2024.10.11.617908v1
 
 ## Code availability
 All custom scripts wrote in Python Jupyter Notebook and processed data required to replicate our analysis are included in this repository, which organized as two main folders,
@@ -9,7 +9,7 @@ All custom scripts wrote in Python Jupyter Notebook and processed data required 
 
 - **Processed Data**, includes the output data generated from our processing pipeline, two demostration of which is included in the **Demo** folder.
 
-*Note, the subfolder is organized as the annotation of Figures corresponding to the manuscript under review.* 
+*Note, the subfolder is organized as the annotation of **Figures** corresponding to the manuscript under review.* 
 
 ## Running an demo pipeline
 
@@ -29,4 +29,4 @@ The **Demo** folder provides two example analysis pipelines, each with detailed 
 
   - A **intensity measurement** is demostrated on processed maximum intensity projection images and the corresponding segmentation masks for each channel. The **Ilastik pixel classification workflow** for barcode array spot segmentation is not included.  
   
-  *Note, the **ratiometric barcode readout raw data demo** and all other **imaging raw data** are available upon request from the corresponding author.* 
+  *Note, the ratiometric barcode readout **raw data demo** and all the other **raw imaging data** are available upon request from the corresponding author.* 
