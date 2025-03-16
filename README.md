@@ -25,8 +25,8 @@ The **Demo** folder provides two example analysis pipelines, each with detailed 
 
 - **Ratiometric Barcode Readout**  
 
-  - A **maximum intensity projection & Cellpose segmentation demo** is demostrated for one of the conditions from the **"WNT-BC1 dosage-dependent"** dataset, including only the first three fields of view (FOVs) due to storage limitations.  
+  - A **maximum intensity projection & Cellpose segmentation pipeline** is demostrated for one of the conditions from the **"WNT-BC1 dosage-dependent"** dataset, detailed experimental condition included in `/Demo/Ratiometric_barcode_readout/WNT-BC1_recording_conditions_demo.csv/`. Only the first three fields of view (FOVs) of this condition included here. 
 
-  - A **intensity measurement** is demostrated on processed maximum intensity projection images and the corresponding segmentation masks for each channel. The **Ilastik pixel classification workflow** for barcode array spot segmentation is not included.  
+  - A **intensity measurement pipeline** is demostrated on the processed maximum intensity projection images and the corresponding segmentation masks for each channel. The **Ilastik pixel classification workflow** for barcode array spot segmentation is not included here.  
   
   *Note, the ratiometric barcode readout **raw data demo** and all the other **raw imaging data** are available upon request from the corresponding author.* 
